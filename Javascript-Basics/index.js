@@ -1,0 +1,1 @@
+console.log('Hello World Via JS in Console from index.js file');
