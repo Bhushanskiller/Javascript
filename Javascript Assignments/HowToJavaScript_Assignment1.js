@@ -58,25 +58,24 @@ console.log(cars);
 
 //2.Add three car objects to the "cars" array.Each car object should have following properties
 // -make:"Toyota", model:"Camry", year:2018
-let car = {
+cars = [
+    {
     make:'Toyota',
     model:'Camry',
     year:2018
-}
+    },
+    {
+        make:'Toyota',
+        model:'Camry',
+        year:2018
+    },
+    {
+        make:'Toyota',
+        model:'Camry',
+        year:2018
+    }
+];
 
-let car2 = {
-    make:'Toyota',
-    model:'Camry',
-    year:2018
-}
-
-let car3 = {
-    make:'Toyota',
-    model:'Camry',
-    year:2018
-}
-
-cars.splice(0,0,car,car2,car3);
 console.log(cars);
 
 
